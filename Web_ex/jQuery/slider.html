@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/humanity/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+
+<style>
+#word{
+font-size:12px;
+}
+
+#slider{
+margin:20px 0;
+width:250px;
+}
+
+</style>
+
+<body>
+	<p id="word">改變文字大小</p>
+	<p >大小：<span id=size>12</span>px</p>
+	<div id="slider"></div>
+
+<script>
+	function onchange()
+	{
+		var size = $('#slider').slider('value');
+		$('#size').text(size);
+		$('#word').css('font-size',size);
+	}
+		
+		$('#slider').slider
+		({
+			value:12,
+			max:100,
+			change:onchange
+		});
+	
+	
+</script>
+</body>
+</html>
