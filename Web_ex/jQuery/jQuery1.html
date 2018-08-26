@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+
+<body>
+<p>書名：<input type=text id=book_name><input type=button id=add_book value=新增></p>
+<p>現在<span id=count>0</span>本書</p>
+<ul id=book_list></ul>
+
+<script>
+$('#add_book').click(function()
+{
+$('#book_list').append('<li>'+$('#book_name').val()+'</li>')//新增li元素和text的值
+$('#book_name').val('');//清除text
+$('#count').text($('#book_list li').length);//計數book_list底下的li的數量
+});
+</script>
+</body>
+
+</html>
