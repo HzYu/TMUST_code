@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+
+<style>
+#name{
+<! --border-color:blue; -->
+}
+</style>
+
+<body>
+<p>姓名：<input type="text" id=name></p>
+<hr width=20% align=left></hr>
+<p>留言：<textarea id=message rows=4 cols=30></textarea></p>
+
+<script>
+$('#name').mouseenter(function() //滑鼠移過去 text外框會變成紅色 線條加粗
+{
+$(this).css({'border-color':'red' , 'border-width':'medium'});
+});
+$('#name').mouseleave(function()//滑鼠離開 
+{
+$(this).removeAttr('style'); //刪除style所有動態樣式 回到style基本樣式(blue)
+});
+
+$('#message').mouseenter(function()
+{
+$(this).css({'border-color':'blue' , 'border-width' : 'medium'});
+$('#char').text(''); //清空文字全部的字
+});
+$('#message').mouseleave(function()
+{
+$(this).removeAttr('style');//刪除style所有動態樣式 回到style基本樣式(blue)
+$('#message').after('<br><span id="char">字元數：'+$('#message').val().length+'</span>');//在message後換行加上字元數
+});
+</script>
+</body>
+</html>
