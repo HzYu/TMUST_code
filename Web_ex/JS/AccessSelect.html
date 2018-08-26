@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>存取清單項目</title>
+	
+</head>
+
+<body>
+<select id="book" size=5>
+	<option value=web>圖解網頁設計的18堂課</option>
+	<option value="css">網頁設計CSS版面設計</option>
+	<option value="js">動態前端解網頁設計教科書</option>
+	<option value="vb">Visual Basic 程式設計的寶典</option>
+	<option value="sql">MS SQL Server 2014 資料庫應用與設計</option>
+</select>
+<br>
+<input type="button" value="第一個" onclick="first(book.options[0])">
+<input type="button" value="上一個" onclick="previos(book.options[book.selectedIndex-1])">
+<input type="button" value="下一個" onclick="next(book.options[book.selectedIndex+1])">
+<input type="button" value="最末個" onclick="last(book.options[4])">
+
+</body>
+
+<script>
+var book = document.getElementById("book");
+
+function first(x)
+{
+	alert(book.options[0].text);
+	console.log(book.selectedIndex);
+}
+
+function previos(x)
+{	
+	if(book.selectedIndex == 0)
+	{
+		alert(book.options[4].text);
+	}
+	else
+	{
+		alert(book.options[book.selectedIndex-1].text);
+	}		
+}
+
+function next(x)
+{
+	if(book.selectedIndex == 4)
+	{
+		alert(book.options[0].text);
+	}
+	else
+	{
+		alert(book.options[book.selectedIndex+1].text);
+	}		
+}
+
+function last(x)
+{
+	alert(book.options[4].text);
+}
+
+</script>
+</html>
