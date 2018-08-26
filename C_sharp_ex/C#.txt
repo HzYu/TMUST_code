@@ -1,0 +1,9 @@
+
+
+
+
+
+
+µ²ºc°}¦C
+member_list[c] = new member { No = int.Parse(textBox1.Text), Name = textBox2.Text };
+
