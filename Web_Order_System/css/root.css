@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/*微軟正黑*/
+body html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.index_Gradient {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.index_Gradient .navbar {
+  position: relative;
+  height: 8.5%;
+  background-color: rgba(240, 240, 240, 0.7);
+}
+
+.index_Gradient .navbar .index_Logo {
+  position: absolute;
+  left: 40px;
+  font-size: 3vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav {
+  position: absolute;
+  width: 1000px;
+  height: 75px;
+  left: 47%;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item1 {
+  position: absolute;
+  top: 9px;
+  left: 180px;
+  padding: 0px 30px;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item1 .nav-item-Eng1 {
+  position: relative;
+  display: block;
+  font-size: 1vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item2 {
+  position: absolute;
+  top: 9px;
+  left: 370px;
+  padding-right: 30px;
+  border-right: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item2 .nav-item-Eng2 {
+  position: relative;
+  display: block;
+  font-size: 1vw;
+  left: 25px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item3 {
+  position: absolute;
+  top: 9px;
+  left: 560px;
+  padding-right: 10px;
+  border-right: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item3 .nav-item-Eng3 {
+  position: relative;
+  left: -25px;
+  display: block;
+  font-size: 1vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item4 {
+  position: absolute;
+  top: 9px;
+  left: 730px;
+  padding-right: 30px;
+  border-right: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item4 .nav-item-Eng4 {
+  position: relative;
+  left: 16px;
+  display: block;
+  font-size: 1vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item5 {
+  position: absolute;
+  top: 11px;
+  left: 900px;
+  font-size: 1.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: 'Baloo Chettan', cursive;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item5 .nav-item-Chin {
+  position: relative;
+  left: -20px;
+  display: block;
+  font-size: 1vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box {
+  position: relative;
+  width: 1800px;
+  height: 800px;
+  left: 70px;
+  top: 90px;
+}
+
+.index_Gradient .navbar .news_box .news_chin {
+  position: absolute;
+  top: 35px;
+  left: 800px;
+  font-size: 2.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .news_chin .news_Eng {
+  position: relative;
+  display: block;
+  top: 10px;
+  right: 30px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .news_box .news_title1 {
+  position: absolute;
+  top: 180px;
+  left: 450px;
+  font-size: 1.8vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_title1_Eng {
+  position: absolute;
+  left: 900px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_title_hr {
+  position: relative;
+  margin: 10px 0px;
+  height: 3.5px;
+  width: 50vw;
+  background-color: rgba(14, 14, 14, 0.842);
+  top: 10px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box {
+  position: relative;
+  top: 20px;
+  width: 73%;
+  height: 500px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box .news_content_title {
+  position: relative;
+  bottom: 10px;
+  font-size: 1.6vw;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box .news_content {
+  position: relative;
+  display: block;
+  top: 70px;
+  font-size: 1.4vw;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.index_Gradient .navbar .news_box .subtitle {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 500px;
+  left: -20px;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_no {
+  position: relative;
+  top: 25px;
+  left: 70px;
+  font-size: 1.5vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_name {
+  position: relative;
+  display: block;
+  top: 50px;
+  left: 70px;
+  font-size: 1.5vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_time {
+  position: relative;
+  display: block;
+  top: 75px;
+  left: 70px;
+  font-size: 1.5vw;
+  line-height: 50px;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .editor_news {
+  position: absolute;
+  padding: 10px 0px 0px 50px;
+  top: 705px;
+  right: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Second_box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.Second_box .menu_chin {
+  position: relative;
+  top: 20px;
+  left: 870px;
+  font-size: 2.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.Second_box .menu_Eng {
+  position: relative;
+  top: 70px;
+  left: 730px;
+  font-size: 2vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.Second_box .menu_add {
+  position: absolute;
+  padding: 10px 0px 0px 30px;
+  top: 1100px;
+  right: 880px;
+  width: 110px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 20px;
+}
+
+.Second_box .menu_box {
+  position: relative;
+  left: 250px;
+  top: 200px;
+}
+
+.Second_box .menu_box .menu_main_item {
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 1.8vw;
+  font-family: Microsoft JhengHei;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.Second_box .menu_box .menu_item {
+  font-size: 1.2vw;
+  font-family: Microsoft JhengHei;
+}
+
+.Second_box .menu_box .menu_item a {
+  color: black;
+  text-decoration: none;
+}
+
+.third_box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.third_box .message_chin {
+  position: relative;
+  top: 70px;
+  left: 890px;
+  font-size: 2.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.third_box .message_eng {
+  position: relative;
+  top: 120px;
+  left: 680px;
+  font-size: 2vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.third_box .message_box {
+  position: relative;
+  left: 200px;
+  top: 180px;
+}
+
+.third_box .message_box a {
+  text-decoration: none;
+  color: black;
+}
+
+.third_box .message_box .message_main_item {
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 1.6vw;
+  font-family: Microsoft JhengHei;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.third_box .message_box .message_item {
+  font-size: 1.35vw;
+  font-family: Microsoft JhengHei;
+}
+
+.third_box .message_add {
+  position: absolute;
+  top: 2700px;
+  left: 1700px;
+  padding: 15px 25px 5px 45px;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* Bounce In */
+.hvr-bounce-in {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.fourth_box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.fourth_box .member_chin {
+  position: relative;
+  top: 70px;
+  left: 880px;
+  font-size: 2.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.fourth_box .member_eng {
+  position: relative;
+  top: 130px;
+  left: 600px;
+  font-size: 2vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.fourth_box .member_box {
+  position: relative;
+  left: 250px;
+  top: 200px;
+}
+
+.fourth_box .member_box .member_main_item {
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 1.8vw;
+  font-family: Microsoft JhengHei;
+  padding-right: 10px;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+.fourth_box .member_box .member_item {
+  font-size: 1.35vw;
+  font-family: Microsoft JhengHei;
+}
+
+.fourth_box .member_box .member_item a {
+  color: black;
+  text-decoration: none;
+}

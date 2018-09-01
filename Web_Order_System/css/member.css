@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/*微軟正黑*/
+body html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.index_Gradient {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.index_Gradient .navbar {
+  position: relative;
+  height: 8.5%;
+  background-color: rgba(240, 240, 240, 0.7);
+}
+
+.index_Gradient .navbar .index_Logo {
+  position: absolute;
+  left: 40px;
+  font-size: 3vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav {
+  position: absolute;
+  width: 1000px;
+  height: 75px;
+  left: 47%;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item1 {
+  position: absolute;
+  top: 9px;
+  left: 340px;
+  padding: 0px 30px;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item1 .nav-item-Eng1 {
+  position: relative;
+  display: block;
+  font-size: 1vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item2 {
+  position: absolute;
+  top: 9px;
+  left: 530px;
+  padding-right: 30px;
+  border-right: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item2 .nav-item-Eng2 {
+  position: relative;
+  display: block;
+  font-size: 1vw;
+  left: 25px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item3 {
+  position: absolute;
+  top: 9px;
+  left: 700px;
+  padding-right: 10px;
+  border-right: 1px black solid;
+  font-size: 1.3vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item3 .nav-item-Eng3 {
+  position: relative;
+  left: -25px;
+  display: block;
+  font-size: 1vw;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item5 {
+  position: absolute;
+  top: 11px;
+  left: 900px;
+  font-size: 1.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: 'Baloo Chettan', cursive;
+  text-decoration: none;
+}
+
+.index_Gradient .navbar .navbar-nav .nav-item5 .nav-item-Chin {
+  position: relative;
+  left: -20px;
+  display: block;
+  font-size: 1vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box {
+  position: relative;
+  width: 1800px;
+  height: 800px;
+  left: 70px;
+  top: 90px;
+}
+
+.index_Gradient .navbar .news_box .news_chin {
+  position: absolute;
+  top: 35px;
+  left: 800px;
+  font-size: 2.2vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .news_chin .news_Eng {
+  position: relative;
+  display: block;
+  top: 10px;
+  right: 30px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .navbar .news_box .news_title1 {
+  position: absolute;
+  top: 180px;
+  left: 450px;
+  font-size: 1.8vw;
+  color: rgba(14, 14, 14, 0.842);
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_title1_Eng {
+  position: absolute;
+  left: 900px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_title_hr {
+  position: relative;
+  margin: 10px 0px;
+  height: 3.5px;
+  width: 50vw;
+  background-color: rgba(14, 14, 14, 0.842);
+  top: 10px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box {
+  position: relative;
+  top: 20px;
+  width: 73%;
+  height: 500px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box .news_content_title {
+  position: relative;
+  bottom: 10px;
+  font-size: 1.6vw;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.index_Gradient .navbar .news_box .news_title1 .news_content_box .news_content {
+  position: relative;
+  display: block;
+  top: 70px;
+  font-size: 1.4vw;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+.index_Gradient .navbar .news_box .subtitle {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 500px;
+  left: -20px;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_no {
+  position: relative;
+  top: 25px;
+  left: 70px;
+  font-size: 1.5vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_name {
+  position: relative;
+  display: block;
+  top: 50px;
+  left: 70px;
+  font-size: 1.5vw;
+  font-family: Microsoft JhengHei;
+}
+
+.index_Gradient .navbar .news_box .subtitle .subtitle_time {
+  position: relative;
+  display: block;
+  top: 75px;
+  left: 70px;
+  font-size: 1.5vw;
+  line-height: 50px;
+  font-family: Microsoft JhengHei;
+}

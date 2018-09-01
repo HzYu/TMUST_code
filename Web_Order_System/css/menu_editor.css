@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*微軟正黑*/
+body html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+.index_Gradient {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 188, 188, 0.4);
+}
+
+.index_Gradient .menu_editor_title {
+  position: absolute;
+  width: 38%;
+  height: 10%;
+  left: 43%;
+  top: 5%;
+  font-size: 2.5vw;
+  letter-spacing: 5px;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .menu_editor_box {
+  position: relative;
+  background-color: rgba(139, 139, 139, 0.4);
+  width: 70%;
+  height: 80%;
+  left: 260px;
+  top: 15%;
+}
+
+.index_Gradient .menu_editor_name_c {
+  position: relative;
+  top: 35px;
+  left: 20px;
+  font-size: 1.7vw;
+  font-size: Microsoft JhengHei;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .menu_editor_textbox1 {
+  position: relative;
+  top: 100px;
+  left: -170px;
+  height: 60px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  border-radius: 5px;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 25px;
+}
+
+.index_Gradient .menu_editor_kind_c {
+  position: absolute;
+  top: 220px;
+  left: 18px;
+  font-size: 1.7vw;
+  font-size: Microsoft JhengHei;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .menu_editor_textbox2 {
+  position: relative;
+  top: 290px;
+  left: -680px;
+  height: 60px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  border-radius: 5px;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 25px;
+}
+
+.index_Gradient .menu_editor_price_c {
+  position: absolute;
+  top: 430px;
+  left: 18px;
+  font-size: 1.7vw;
+  font-size: Microsoft JhengHei;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .menu_editor_textbox3 {
+  position: relative;
+  top: 440px;
+  left: 80px;
+  height: 70px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  border-radius: 5px;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 25px;
+}
+
+.index_Gradient .menu_editor_pic_c {
+  position: absolute;
+  top: 40px;
+  left: 700px;
+  font-size: 1.7vw;
+  font-size: Microsoft JhengHei;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.index_Gradient .upload_file {
+  position: relative;
+  top: 20px;
+  left: 270px;
+  width: 500px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 25px;
+}
+
+.index_Gradient .Sign_up {
+  position: relative;
+  top: 550px;
+  right: 530px;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 20px;
+}
+
+.index_Gradient .editor_return {
+  position: relative;
+  padding: 15px 50px;
+  top: 550px;
+  right: 400px;
+  width: 150px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  color: rgba(240, 240, 240, 0.95);
+  font-size: 20px;
+}
+
+.index_Gradient ::-webkit-input-placeholder {
+  position: relative;
+  left: 160px;
+  color: rgba(240, 240, 240, 0.95);
+}
