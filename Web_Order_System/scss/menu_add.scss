@@ -1,0 +1,156 @@
+$font-Chin : Microsoft JhengHei; /*微軟正黑*/
+$color-white : rgba(240, 240, 240, 0.95);
+$color-black : rgba(14, 14, 14, 0.842);
+$color-blue:rgba(46, 137, 223, 0.842);
+
+body html{
+	height:100%;
+	
+}
+body{
+	margin : 0px;
+}
+//灰色底層
+.index_Gradient{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(189, 188, 188, 0.40);
+    .menu_add_title{
+        position: absolute;
+		//	border: 3px black solid;
+			width: 38%;
+			height: 10%;
+			left: 43%;
+			top: 5%;
+			font-size: 2.5vw;
+			letter-spacing: 5px;
+			font-family: 'Baloo Chettan', cursive;
+    }
+    .menu_add_box{
+            position: relative;
+        //	border: 3px black solid;
+            background-color: rgba(139, 139, 139, 0.4);
+            width: 70%;
+            height: 80%;
+            left: 260px;
+            top: 15%;
+    }
+    //menu 名稱
+    .menu_add_name_c{
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 1.7vw;
+        font-size: $font-Chin;
+        font-family: 'Baloo Chettan', cursive;
+    }
+    //menu 名稱 textbox 的 排版與美化
+    .menu_add_textbox1{
+        position: relative;
+        top: 100px;
+        left: -170px;
+        height: 60px;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: 0;
+        border-radius: 5px;
+        color: $color-white; //輸入時字的顏色
+        font-size: 25px;
+    }
+    //menu kind 菜單種類
+    .menu_add_kind_c{
+        position: absolute;
+        top: 220px;
+        left: 18px;
+        font-size: 1.7vw;
+        font-size: $font-Chin;
+        font-family: 'Baloo Chettan', cursive;
+    }
+    //menu 種類 textbox 的 排版與美化
+    .menu_add_textbox2{
+        position: relative;
+        top: 290px;
+        left: -680px;
+        height: 60px;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: 0;
+        border-radius: 5px;
+        color: $color-white; //輸入時字的顏色
+        font-size: 25px;
+    }
+    //餐點價錢 文字
+    .menu_add_price_c{
+        position: absolute;
+        top: 430px;
+        left: 18px;
+        font-size: 1.7vw;
+        font-size: $font-Chin;
+        font-family: 'Baloo Chettan', cursive;
+    }
+    //餐點價錢 textbox 的 排版與美化
+    .menu_add_textbox3{
+        position: relative;
+        top: 440px;
+        left: 80px;
+        height: 70px;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: 0;
+        border-radius: 5px;
+        color: $color-white; //輸入時字的顏色
+        font-size: 25px;
+    }
+    //新增圖片 文字
+    .menu_add_pic_c{
+        position: absolute;
+        top: 40px;
+        left: 700px;
+        font-size: 1.7vw;
+        font-size: $font-Chin;
+        font-family: 'Baloo Chettan', cursive;
+    }
+    //新增圖片 textbox
+    .upload_file{
+        position: relative;
+        top: 20px;
+        left: 270px;
+        width: 500px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border-radius: 5px;
+        color: $color-white; //輸入時字的顏色
+        font-size: 25px;
+    }
+    //新增送出
+    .Sign_up{
+        position: relative;
+        top: 550px;
+        right: 530px;
+        width: 150px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: 0;
+        color: $color-white;
+        font-size: 20px;
+    }
+    //新增返回
+    .editor_return{
+        position: relative;
+        padding :15px 50px;
+        top: 550px;
+        right: 400px;
+        width: 150px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: 0;
+        color: $color-white;
+        font-size: 20px;  
+    }
+    //input placeholder 裡面字的顏色
+    ::-webkit-input-placeholder {
+        position: relative;
+        left:160px;
+        color: $color-white;
+    }
+}

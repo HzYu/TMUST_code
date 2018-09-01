@@ -1,0 +1,180 @@
+$font-Chin : Microsoft JhengHei; /*微軟正黑*/
+$color-white : rgba(240, 240, 240, 0.95);
+$color-black : rgba(14, 14, 14, 0.842);
+$color-blue:rgba(46, 137, 223, 0.842);
+
+body html{
+	height:100%;
+	
+}
+body{
+	margin : 0px;
+}
+
+//留言板 box
+.message_theme{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(189, 188, 188, 0.40);
+    //留言板 主題全部文字
+    .message_title{
+        position: absolute;
+        top: 100px;
+        left:150px;
+        border-left: 4px solid black;
+        width: 410px;
+        height:180px;
+        font-size: 2.6vw;
+        color: $color-black;
+        font-family: $font-Chin;
+        //主題Theme
+        .message_title1{
+            position: relative;
+            writing-mode: vertical-lr ; //垂直文字
+            left: -100px;
+        }
+        .message_title2{
+            position: absolute;
+            display: block;
+            left: 20px;
+            bottom: 130px;
+        }
+        .message_title3{
+            position: absolute;
+            display: block;
+            left: 20px;
+            bottom:20px;
+        }
+    }
+    //發布人姓名
+    .message_name{
+        position: absolute;
+        top: 430px;
+        left:50px;
+        font-size: 2.0vw;
+        color: $color-black;
+        font-family: $font-Chin;
+    }
+
+    .message_name1{
+        position: absolute;
+        top: 500px;
+        left:90px;
+        font-size: 2.0vw;
+        color: $color-black;
+        font-family: $font-Chin;
+    }
+
+    .message_return{
+        position: absolute;
+        top: 800px;
+        left:250px;		
+        padding :15px 40px;
+        width:50px;
+        height: 30px;
+        background-color: rgba(102, 102, 102, 0.6);
+        border: 0;
+        color: $color-white;
+        font-size: 20px;	
+        text-decoration: none;
+    }
+
+    .message_del{
+        position: absolute;
+        top: 800px;
+        left:50px;		
+        padding :15px 25px;
+        width:90px;
+        height: 30px;
+        background-color: rgba(102, 102, 102, 0.6);
+        border: 0;
+        color: $color-white;
+        font-size: 20px;	
+        text-decoration: none;
+    }
+
+    .message_box1{
+        position: absolute;
+        left: 800px;
+        top: 100px;
+        .message_main_item{
+            color: $color-white;
+            font-size: 1.6vw;
+            font-family: $font-Chin;
+            padding-right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .message_item1{
+            font-size: 1.4vw;
+            font-family: $font-Chin;
+        }
+        .message_item2{
+            font-size: 1vw;
+            font-family: $font-Chin;
+        }
+    }
+
+    .message_box2{
+        position: absolute;
+        top: 100px;
+        left: 1400px;
+        .message_main_item{
+            color: $color-white;
+            font-size: 1.6vw;
+            font-family: $font-Chin;
+            padding-right: 10px;
+            background-color: rgba(0, 0, 0,  0.7);
+        }
+        .message_item1{
+            font-size: 1.4vw;
+            font-family: $font-Chin;
+            .message_member_Re{
+                padding: 10px 0px 0px 20px;   
+            }
+            a{
+                text-decoration: none;
+                color: rgba($color: hsl(236, 80%, 67%), $alpha: 5.0);
+                transition: all ease .5s;
+            }
+            a:hover{
+                color: rgba($color: hsl(12, 90%, 60%), $alpha: 5.0);
+                
+            }
+        }
+        .message_item2{
+            font-size: 1vw;
+            font-family: $font-Chin;
+        }
+    }
+}
+
+/* Bubble Left */
+.hvr-bubble-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+    position: relative;
+}
+.hvr-bubble-left:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    top: calc(50% - 10px);
+    left: 0;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent  rgba($color: hsl(12, 90%, 60%), $alpha: 5.0) transparent transparent;
+}
+.hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+
+

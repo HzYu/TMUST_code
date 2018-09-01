@@ -1,0 +1,436 @@
+$font-Chin : Microsoft JhengHei; /*微軟正黑*/
+$color-white : rgba(240, 240, 240, 0.95);
+$color-black : rgba(14, 14, 14, 0.842);
+$color-blue:rgba(46, 137, 223, 0.842);
+
+//垂直線
+.vertical{          
+    position: absolute;
+    border-left: white 3px solid;
+    left: 50%;
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+}
+
+
+body html{
+	height:100%;
+	
+}
+body{
+	margin : 0px;
+}
+
+//主頁背景圖片
+.index_bg{
+	height: 100%; 
+	background-image: url("../img/index_pic.JPG");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	//圖片灰色漸層
+	.index_Gradient{
+		width: 100%;
+		height: 100%;
+		background-color:rgba(189, 188, 188, 0.40);
+		//選單 白色底
+		.navbar{
+			position: relative;
+			height: 8.5%;
+			background-color: rgba(240, 240, 240, 0.70);
+			//選單LOGO
+			.index_Logo{
+				position: absolute;
+				left: 40px;
+				font-size: 3vw;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//選單列 div
+			.navbar-nav{
+				position: absolute;
+			//	border: 3px black solid;
+				width: 1000px;
+				height: 75px;
+				left: 47%;
+				//關於TIMEAT
+				.nav-item1{
+					position: absolute;
+					top: 9px;
+					left: 260px;
+					padding: 0px 30px;
+					border-right: 1px black solid;
+					border-left: 1px black solid;
+					font-size: 1.3vw;
+					color: $color-black;
+					font-family: $font-Chin;
+					text-decoration:none;
+					//about
+					.nav-item-Eng1{
+						position: relative;
+						display: block;
+						left: 45px;
+						font-size: 1vw;
+						font-family: 'Baloo Chettan', cursive;
+					}
+				}
+				//主廚推薦
+				.nav-item2{
+					position: absolute;
+					top: 9px;
+					left: 500px;
+					padding-right: 30px;
+					border-right: 1px black solid;
+					font-size: 1.3vw;
+					color: $color-black;
+					font-family: $font-Chin;
+					text-decoration:none;
+					//recommend
+					.nav-item-Eng2{
+						position: relative;
+						display: block;
+						font-size: 1vw;
+						font-family: 'Baloo Chettan', cursive;
+					}
+				}
+				//餐點菜單
+				.nav-item3{
+					position: absolute;
+					top: 9px;
+					left: 680px;
+					padding-right: 30px;
+					border-right: 1px black solid;
+					font-size: 1.3vw;
+					color: $color-black;
+					font-family: $font-Chin;
+					text-decoration:none;
+					//menu
+					.nav-item-Eng3{
+						position: relative;
+						left: 26px;
+						display: block;
+						font-size: 1vw;
+						font-family: 'Baloo Chettan', cursive;
+					}
+				}
+				//加入會員
+				.nav-item4{
+					position: absolute;
+					top: 9px;
+					left: 850px;
+					padding-right: 30px;
+					border-right: 1px black solid;
+					font-size: 1.3vw;
+					color: $color-black;
+					font-family: $font-Chin;
+					text-decoration:none;
+					//join
+					.nav-item-Eng4{
+						position: relative;
+						left: 35px;
+						display: block;
+						font-size: 1vw;
+						font-family: 'Baloo Chettan', cursive;
+					}
+				}
+			}
+		}
+		//首頁文字敘述div
+		.index_desc_box{
+			position: absolute;
+			padding: 25px;
+		//	border :3px solid black ;
+			background-color:rgba(0, 0, 0, 0.50);
+			width:22%;
+			height:26%;
+			top:60%;
+			left:5%;
+			//首頁文字敘述
+			.index_desc{
+				position:absolute;
+				color:white;
+				font-size:1.1vw;
+				line-height: 35px;
+				letter-spacing: 4px;
+				font-family: $font-Chin;
+			}
+			//了解更多
+			.index_desc_more{
+				position: absolute;
+				padding: 5px;
+			//	border: 3px black solid;
+				top: 73%;
+				left: 65%;
+				font-size: 1.2vw;
+				line-height: 35px;
+				letter-spacing: 4px;
+				color: $color-white;
+				font-family: $font-Chin;
+				background-color: rgba(240, 240, 240, 0.30);
+			}
+		}
+	}
+}
+
+.member_join{
+	height: 100%;
+	//登入會員灰色背景
+	.Gradient_join{
+		width: 100%;
+		height: 100%;
+		background-color:rgba(189, 188, 188, 0.40);
+		//TIMEAT SIGN
+		.join_title{
+			position: relative;
+		//	border: 3px black solid;
+			width: 38%;
+			height: 10%;
+			left: 31.5%;
+			top: 5%;
+			font-size: 4vw;
+			letter-spacing: 5px;
+			font-family: 'Baloo Chettan', cursive;
+		}
+		//SIGN IN 的 box
+		.join_box{
+			position: relative;
+		//	border: 3px black solid;
+			background-color: rgba(139, 139, 139, 0.4);
+			width: 35%;
+			height: 70%;
+			left: 32%;
+			top: 8%;
+			//帳號admin文字
+			.join_admin_c{
+				position: relative;
+				top: 35px;
+				left: 20px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Admin textbox 的 排版與美化
+			.join_textbox1{
+				position: relative;
+				top: 60px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			//密碼 Password 文字
+			.join_Password_c{
+				position: absolute;
+				top: 200px;
+				left: 18px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Password textbox 的 排版與美化
+			.join_textbox2{
+				position: relative;
+				top: 170px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			//電話號碼 Phone-Nuber 文字
+			.join_Phone_c{
+				position: absolute;
+				top: 390px;
+				left: 18px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Phone-Nuber textbox 的 排版與美化
+			.join_textbox3{
+				position: relative;
+				top: 300px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			.join_Login{
+				position: relative;
+				top: 400px;
+				right: 240px;
+				width: 150px;
+				height: 50px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				color: $color-white;
+				font-size: 20px;
+			}
+			//input placeholder 裡面字的顏色
+			::-webkit-input-placeholder {
+				position: relative;
+				left:160px;
+				color: $color-white;
+			}
+		}	
+		.join_box2{
+			position: relative;
+			left: 245px;
+			top: 440px;
+		//	border: 3px black solid;
+			width: 200px;
+			height: 40px;		
+			a{
+				font-size: 1vw;
+				text-decoration:none;
+				color: black;
+			}
+		}
+	}
+}
+//Sign Up
+.member_Sign_up{
+	height: 100%;
+	//註冊會員灰色背景
+	.Gradient_Sign_up{
+		width: 100%;
+		height: 100%;
+		background-color:rgba(189, 188, 188, 0.40);
+		//TIMEAT SIGN
+		.Sign_up_title{
+			position: relative;
+		//	border: 3px black solid;
+			width: 38%;
+			height: 10%;
+			left: 31.5%;
+			top: 5%;
+			font-size: 4vw;
+			letter-spacing: 5px;
+			font-family: 'Baloo Chettan', cursive;
+		}
+		//Sign Up 的 box
+		.Sign_up_box{
+			position: relative;
+		//	border: 3px black solid;
+			background-color: rgba(139, 139, 139, 0.4);
+			width: 35%;
+			height: 80%;
+			left: 32%;
+			top: 8%;
+			//帳號admin文字
+			.Sign_up_admin_c{
+				position: relative;
+				top: 35px;
+				left: 20px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Admin textbox 的 排版與美化
+			.Sign_up_textbox1{
+				position: relative;
+				top: 60px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			//密碼 Password 文字
+			.Sign_up_Password_c{
+				position: absolute;
+				top: 190px;
+				left: 18px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Password textbox 的 排版與美化
+			.Sign_up_textbox2{
+				position: relative;
+				top: 150px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			//電話號碼 Phone-Nuber 文字
+			.Sign_up_Phone_c{
+				position: absolute;
+				top: 340px;
+				left: 18px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			//Phone-Nuber textbox 的 排版與美化
+			.Sign_up_textbox3{
+				position: relative;
+				top: 240px;
+				left: 90px;
+				height: 60px;
+				width: 500px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white; //輸入時字的顏色
+				font-size: 25px;
+			}
+			.Sign_up_purview_c{
+				position: absolute;
+				top: 500px;
+				left: 18px;
+				font-size: 1.7vw;
+				font-size: $font-Chin;
+				font-family: 'Baloo Chettan', cursive;
+			}
+			.Sign_up_select{
+				position: absolute;
+				top:570px;
+				right: 70px;
+				width: 510px;
+				height: 50px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				border-radius: 5px;
+				color: $color-white;
+				font-size: 20px;				
+			}
+			.Sign_up{
+				position: relative;
+				top: 500px;
+				right: 240px;
+				width: 150px;
+				height: 50px;
+				background-color: rgba(0, 0, 0, 0.50);
+				border: 0;
+				color: $color-white;
+				font-size: 20px;
+			}
+			//input placeholder 裡面字的顏色
+			::-webkit-input-placeholder {
+				position: relative;
+				left:160px;
+				color: $color-white;
+			}
+		}	
+	}
+}

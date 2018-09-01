@@ -1,0 +1,181 @@
+$font-Chin : Microsoft JhengHei; /*微軟正黑*/
+$color-white : rgba(240, 240, 240, 0.95);
+$color-black : rgba(14, 14, 14, 0.842);
+$color-blue:rgba(46, 137, 223, 0.842);
+
+body html{
+	height:100%;
+	
+}
+body{
+	margin : 0px;
+}
+//灰色底層
+.index_Gradient{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(189, 188, 188, 0.40);
+    .message_add{
+        position: absolute;
+		//	border: 3px black solid;
+			width: 38%;
+			height: 10%;
+			left: 42.5%;
+			top: 5%;
+			font-size: 2.5vw;
+			letter-spacing: 5px;
+			font-family: 'Baloo Chettan', cursive;
+    }
+    //最新消息的 box
+    .message_add_box{
+        position: relative;
+    //	border: 3px black solid;
+        background-color: rgba(139, 139, 139, 0.4);
+        width: 70%;
+        height: 75%;
+        left: 320px;
+        top: 15%;
+        //NEWS 編號
+        .message_add_no_c{
+            position: relative;
+            top: 35px;
+            left: 20px;
+            font-size: 1.7vw;
+            font-size: $font-Chin;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        //編號No textbox 的 排版與美化
+        .message_add_textbox1{
+            position: relative;
+            top: 100px;
+            left: -60px;
+            height: 60px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            border-radius: 5px;
+            color: $color-white; //輸入時字的顏色
+            font-size: 25px;
+        }
+        //發布人姓名
+        .message_add_name_c{
+            position: absolute;
+            top: 190px;
+            left: 18px;
+            font-size: 1.7vw;
+            font-size: $font-Chin;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        //發布人 textbox 的 排版與美化
+        .message_add_textbox2{
+            position: relative;
+            top: 250px;
+            left: -565px;
+            height: 60px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            border-radius: 5px;
+            color: $color-white; //輸入時字的顏色
+            font-size: 25px;
+        }
+        //發布時間 Time 文字
+        .message_add_time_c{
+            position: absolute;
+            top: 340px;
+            left: 18px;
+            font-size: 1.7vw;
+            font-size: $font-Chin;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        //發布時間 textbox 的 排版與美化
+        .message_add_textbox3{
+            position: relative;
+            top: 350px;
+            left: 90px;
+            height: 60px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            border-radius: 5px;
+            color: $color-white; //輸入時字的顏色
+            font-size: 25px;
+        }
+        //標題 Title 文字
+        .message_add_title_c{
+            position: absolute;
+            top: 45px;
+            left: 670px;
+            font-size: 1.7vw;
+            font-size: $font-Chin;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        //標題 textbox 的 排版與美化
+        .message_add_textbox4{
+            position: relative;
+            top: 40px;
+            left: 220px;
+            height: 60px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            border-radius: 5px;
+            color: $color-white; //輸入時字的顏色
+            font-size: 25px;
+        }
+        //內容 content 文字
+        .message_add_content_c{
+            position: absolute;
+            top: 195px;
+            left: 670px;
+            font-size: 1.7vw;
+            font-size: $font-Chin;
+            font-family: 'Baloo Chettan', cursive;
+        }
+        //內容 textarea 的 排版與美化
+        .message_add_textarea{
+            position: relative;
+            top: 150px;
+            left: 725px;
+            height: 200px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            border-radius: 5px;
+            color: $color-white; //輸入時字的顏色
+            font-size: 25px;
+        }
+
+
+        .Sign_up{
+            position: relative;
+            top: 300px;
+            right: 30px;
+            width: 150px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            color: $color-white;
+            font-size: 20px;
+        }
+        .message_add_return{
+            position: relative;
+            padding :15px 50px;
+            top: 300px;
+            right: -75px;
+            width: 150px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.50);
+            border: 0;
+            color: $color-white;
+            font-size: 20px;
+            
+        }
+        //input placeholder 裡面字的顏色
+        ::-webkit-input-placeholder {
+            position: relative;
+            left:160px;
+            color: $color-white;
+        }
+    }	
+}
