@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Order_System</title>
+        <meta charset="utf-8">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+		<!--import JQ CDN-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<!--import JS-->
+        <script src="JS.js"></script>
+    </head>
+	<body>
+		<div class="index_bg">
+			<div class="index_Gradient">
+				<div class="navbar">
+					<div class="index_Logo">
+						TIMEAT
+						<img src="../img/Logo.png" height="50px;">
+					</div>
+					<div class="navbar-nav">
+						<div class="nav-item1" href="#">
+							關於TIMEAT
+							<span class="nav-item-Eng1">About</span>
+						</div>
+						<div class="nav-item2" href="#">
+							主廚推薦
+							<span class="nav-item-Eng2">Recommend</span>
+						</div>
+						<div class="nav-item3" href="#">
+							餐點菜單
+							<span class="nav-item-Eng3">Menu</span>
+						</div>
+						<a class="nav-item4" href="#Join" id="Join">
+							加入會員
+							<span class="nav-item-Eng4">Join</span>
+						</a>
+					</div>					
+				</div>
+				<div class="index_desc_box">
+						<span class="index_desc">
+							搜查一課刑警石川安吾，犧牲一切私生活自己生存，埋首調查工作。
+							唯有在命案現場，才能找到自己生存的意義，才能找到自己生存的意。
+						</span>
+						<a href="#"><span class="index_desc_more">了解更多</span></a>
+				</div>
+			</div>		
+		</div>
+		<!--Sign in-->
+		<div class="member_join" id="member_Join">
+			<div class="Gradient_join">
+				<div class="join_title">
+					TIMEAT
+					<img src="img/Logo.png" height="70px;">
+					SIGN IN
+				</div>
+				<div class="join_box">
+					<form id="form1" method="post" action="PHP/check.php">
+						<span class="join_Admin_c">帳號 Amdmin：</span>
+						<input type="text" id="join_Admin" name="join_Admin" class="join_textbox1" placeholder="請輸入會員帳號" autocomplete="off">
+						<span class="join_Password_c">密碼 Password：</span>
+						<input type="text" id="join_Password" name="join_Password" class="join_textbox2" placeholder="請輸入會員密碼" autocomplete="off">
+						<span class="join_Phone_c">電話號碼 Phone-Number：</span>
+						<input type="text" id="join_Phone" name="join_Phone" class="join_textbox3" placeholder="請輸入電話號碼" autocomplete="off">
+						<input type="submit" name="submit_si" id="submit_si" value="登入 Login" class="join_Login">
+					</form>
+					<div class="join_box2">
+						<a href="#">忘記密碼 </a> | <a href="#Sign_up" id="Sign_up">註冊會員</a>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<!--Sign up-->
+		<div class="member_Sign_up" id="member_Sign_up">
+			<div class="Gradient_Sign_up">
+				<div class="Sign_up_title">
+					TIMEAT
+					<img src="img/Logo.png" height="70px;">
+					SIGN UP
+				</div>
+				<div class="Sign_up_box">
+					<form id="form2" method="post" action="PHP/sign_up.php">
+						<span class="Sign_up_Admin_c">帳號 Amdmin：</span>
+						<input type="text" id="Sign_up_username" name="Sign_up_username" class="Sign_up_textbox1" placeholder="請輸入會員帳號" autocomplete="off">
+						<span class="Sign_up_Password_c">密碼 Password：</span>
+						<input type="text" id="Sign_up_Password" name="Sign_up_Password" class="Sign_up_textbox2" placeholder="請輸入會員密碼" autocomplete="off">
+						<span class="Sign_up_Phone_c">電話號碼 Phone-Number：</span>
+						<input type="text" id="Sign_up_Phone" name="Sign_up_Phone" class="Sign_up_textbox3" placeholder="請輸入電話號碼" autocomplete="off">
+						<span class="Sign_up_purview_c">使用者權限 User_Purview：</span>
+						<select name="user_purview" class="Sign_up_select">
+							<option value="0">系統管理員</option>>
+							<option value="1">一般使用者</option>>
+						<input type="submit" name="submit_su" id="submit_su" value="註冊 Sign Up" class="Sign_up">
+					</form>
+				</div>			
+			</div>
+		</div>
+	</body>
+</html>
