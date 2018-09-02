@@ -66,7 +66,7 @@
                     @$upload_input = $_REQUEST['upload_input'];
                     
                     //SQL編輯
-                    $sql_menu_editor = "UPDATE menu SET Name='$menu_editor_name' , kind='$menu_editor_kind' , price='$menu_editor_price' , Pic='$upload_input' WHERE Id='$no'";
+                    $sql_menu_editor = "UPDATE menu SET Name='$menu_editor_name' , kind='$menu_editor_kind' , price='$menu_editor_price' , Pic='../img/$upload_input' WHERE Id='$no'";
                     // echo $sql_menu_editor;
                     @mysqli_query($conn,$sql_menu_editor);
                     header("location:root.php"); //連結到root.php

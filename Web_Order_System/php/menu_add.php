@@ -50,7 +50,8 @@
                     @$upload_input = $_REQUEST['upload_input'];
                     
                     //SQL新增
-                    $sql_menu_add = "INSERT INTO menu VALUES ('','$menu_add_name','$menu_add_kind','$menu_add_price','$upload_input')";
+                    $sql_menu_add = "INSERT INTO menu VALUES ('','$menu_add_name','$menu_add_kind','$menu_add_price','../img/$upload_input')";
+                    // echo $sql_menu_add;
                     @mysqli_query($conn,$sql_menu_add);
                     header("location:root.php"); //連結到root.php
                 }
