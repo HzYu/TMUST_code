@@ -227,3 +227,182 @@ body{
             }
 		}
 	}
+
+	.second_box{
+		width: 100%;
+		height: 200%;
+		background-color:rgba(189, 188, 188, 0.40);
+		.menu_chin{
+			position: relative;
+			top: 20px;
+			left: 870px;
+			font-size: 2.2vw;
+			color: $color-black;
+			font-family: $font-Chin;
+		}
+		.menu_chin1{
+			position: relative;
+			top: 150px;
+			left: 580px;
+			font-size: 2.2vw;
+			color: $color-black;
+			font-family: $font-Chin;
+		}
+		.menu_Eng{
+			position: relative;
+			top: 70px;
+			left: 730px;
+			font-size: 2vw;
+			font-family: 'Baloo Chettan', cursive;
+		}
+
+		.menu_box{
+			position: relative;
+			left: 200px;
+			top: 200px;
+
+			.menu_td{
+				position: relative;
+				top: 700px;
+				right: 1425px;
+			}
+
+			.img_spac{
+				position: relative;
+				width: 150px;
+				//left: 100px;
+			}
+
+			.menu_name{
+				font-size: 30px;
+				font-family: $font-Chin;
+				line-height: 70px;
+			}
+
+			.menu_kind{
+				font-size: 30px;
+				font-family: $font-Chin;
+				line-height: 50px;
+			}
+			.menu_pric{
+				font-size: 30px;
+				font-family: $font-Chin;
+				line-height: 50px;
+			}
+
+			.menu_ok{
+				font-size: 30px;
+				font-family: $font-Chin;
+				line-height: 50px;
+				.menu_ck{
+					width: 25px;
+					height: 25px;
+				}
+			}
+		}
+		.menu_total{
+			position: absolute;
+			top: 1050px;
+			left:1545px;		
+			padding: 15px 25px 5px 45px;
+			width: 100px;
+			height: 40px;
+			background-color: rgba(0, 0, 0, 0.50);
+			border: 0;
+			color: $color-white;
+			font-size: 20px;	
+			text-decoration: none;
+
+		}
+	}
+
+//留言板 box
+.third_box{
+	height: 150%;
+	width: 100%;
+	background-color:rgba(189, 188, 188, 0.40);
+	//留言板 文字
+	.message_chin{
+		position: relative;
+		top: 550px;
+		left:890px;
+		font-size: 2.2vw;
+		color: $color-black;
+		font-family: $font-Chin;
+	}
+	//Message Borard 文字
+	.message_eng{
+		position: relative;
+		top: 600px;
+		left: 680px;
+		font-size: 2vw;
+		font-family: 'Baloo Chettan', cursive;
+	}
+	//message box
+	.message_box{
+		position: relative;
+		left: 200px;
+		top: 650px;
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		//message 標題
+		.message_main_item{
+			color: $color-white;
+			font-size: 1.6vw;
+			font-family: $font-Chin;
+			padding-right: 10px;
+			background-color: rgba(0, 0, 0, 0.808);
+		}
+		//message 細項
+		.message_item{
+			font-size: 1.35vw;
+			font-family: $font-Chin;
+		}
+	}
+	.message_add{
+		position: absolute;
+		top: 4100px;
+		left:1700px;		
+		padding: 15px 25px 5px 45px;
+		width: 100px;
+		height: 40px;
+		background-color: rgba(0, 0, 0, 0.50);
+		border: 0;
+		color: $color-white;
+		font-size: 20px;	
+		text-decoration: none;
+	}
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+/* Bounce In */
+.hvr-bounce-in {
+
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
