@@ -30,5 +30,5 @@
 ___
 
 <h4 id="首頁">第一步：所看即所抓</h4>
-
+*What you see is what you retrieve, but all in text!*
 ![image](https://github.com/HzYu/TMUST_code/blob/master/Web_Order_System/pic/pic1.PNG)
