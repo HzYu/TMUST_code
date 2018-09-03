@@ -31,3 +31,28 @@ ___
 
 ### 首頁
 ![](pic/pic1.PNG)
+### 會員登入
+![](pic/pic2.PNG)
+### 會員註冊
+![](pic/pic3.PNG)
+
+## 系統管理員
+
+### 最新消息
+![](pic/pic4.PNG)
+### 餐點菜單
+![](pic/pic5.PNG)
+### 留言板
+![](pic/pic6.PNG)
+![](pic/pic8.PNG)
+### 會員管理
+![](pic/pic7.PNG)
+
+## 一般會員
+
+### 最新消息
+![](pic/pic9.PNG)
+### 餐點菜單
+![](pic/pic10.PNG)
+### 留言板
+![](pic/pic11.PNG)
