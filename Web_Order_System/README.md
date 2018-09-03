@@ -29,5 +29,5 @@
 	* 留言板
 ___
 
-<id="首頁">首頁
+<h4 id="首頁">第一步：所看即所抓</h4>
 ![image](https://github.com/HzYu/TMUST_code/blob/master/Web_Order_System/pic/pic1.PNG)
